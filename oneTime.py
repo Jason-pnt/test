@@ -29,4 +29,4 @@ while flags:
             repo.index.commit(commitName)
             subprocess.check_call(['git', 'push', 'origin', 'master'])
             time.sleep(10)
-    flags = False~
+    flags = False
