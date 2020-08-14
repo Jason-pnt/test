@@ -31,6 +31,8 @@ driver = webdriver.Chrome(chrome_options=chrome_options)
 # driver.execute_script("document.body.style.zoom='0.9'")
 driver.get('https://tools.keycdn.com/geo')
 print(driver.find_element_by_xpath('//*[@id="geoResult"]/div[1]/dl[1]/dd[1]').text)
+print(driver.find_element_by_xpath('//*[@id="geoResult"]/div[1]/dl[1]/dd[3]').text)
+
 
 # counts = 0
 # final_result = {}
