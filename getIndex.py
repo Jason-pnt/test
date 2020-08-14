@@ -29,8 +29,8 @@ driver = webdriver.Chrome(chrome_options=chrome_options)
 # driver.get('https://www.amazon.com/?currency=USD&language=en_US')
 # time.sleep(15)
 # driver.execute_script("document.body.style.zoom='0.9'")
-driver.get('https://ip138.com/')
-print(driver.find_element_by_xpath('/html/body/p[1]').text)
+driver.get('https://tools.keycdn.com/geo')
+print(driver.find_element_by_xpath('//*[@id="geoResult"]/div[1]/dl[1]/dd[1]').text)
 
 # counts = 0
 # final_result = {}
